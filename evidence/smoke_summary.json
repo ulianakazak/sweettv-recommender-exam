@@ -1,0 +1,39 @@
+{
+  "kind": "Summary of actually executed smoke commands; full captured logs kept outside publication folder",
+  "commands": [
+    {
+      "command": [
+        "python3.12",
+        "scripts/run_local.py",
+        "--help"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3.12",
+        "scripts/run_local.py",
+        "verify"
+      ],
+      "exit_code": 0
+    },
+    {
+      "command": [
+        "python3.12",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0
+    }
+  ],
+  "synthetic_tests_passed": 68,
+  "unittest_seconds": 0.55,
+  "model_core_tests_include_synthetic_ALS_only": true,
+  "full_dataset_training": false,
+  "real_quality_scores_computed": false,
+  "new_submissions_or_publications": 0
+}
