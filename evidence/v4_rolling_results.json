@@ -1,0 +1,3211 @@
+{
+  "new_configurations": 24,
+  "controls": 2,
+  "evaluations": 78,
+  "records": [
+    {
+      "phase": "fold_a",
+      "config_id": "v2_control",
+      "params": {
+        "id": "v2_control",
+        "family": "v2",
+        "semantic_key": "{\"family\":\"v2\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.3507376543209877,
+        "map_at_5_nonempty_truth": 0.37451647834274954,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 153,
+        "catalogue_coverage_at_5": 0.038597376387487385,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2572549019607843,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4585510018214936,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "cdc8c06a789d9b54c2d9ed351e0419159743500d46d72dfd4e89632091ac0762"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "v3_control",
+      "params": {
+        "id": "v3_control",
+        "family": "v3",
+        "semantic_key": "{\"family\":\"v3\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.35252976190476193,
+        "map_at_5_nonempty_truth": 0.3764300847457627,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 133,
+        "catalogue_coverage_at_5": 0.03355196770938446,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2608492315845257,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.45854644808743167,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "815e6523cc9f5e7870fbdc1e4da9fb4f23212aec1a01841e1c603e2d494f6139"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "partial_p2_m10",
+      "params": {
+        "id": "partial_p2_m10",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.1,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.35373478835978833,
+        "map_at_5_nonempty_truth": 0.37771680790960455,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 140,
+        "catalogue_coverage_at_5": 0.035317860746720484,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2588862391803568,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4630596539162113,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "074d653b323c3630bfd5084575fc6464acdacea14f107b0d420114cca7c6e0a8"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "partial_p2_m25",
+      "params": {
+        "id": "partial_p2_m25",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.25,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.356626102292769,
+        "map_at_5_nonempty_truth": 0.38080414312617705,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 122,
+        "catalogue_coverage_at_5": 0.03077699293642785,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2638610669493023,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4639020947176685,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "96be651bb9e3880be751e325b9e93c910ade900f8310873a8283d71c07f3de52"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "partial_p2_m50",
+      "params": {
+        "id": "partial_p2_m50",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.5,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3498613315696649,
+        "map_at_5_nonempty_truth": 0.3735807438794727,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 110,
+        "catalogue_coverage_at_5": 0.027749747729566093,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2611287758346582,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4527463570127504,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "18c7bf711243f281094e19d2a02968731c6d4b18c03681b6470c57c2ec850e17"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "partial_p4_m10",
+      "params": {
+        "id": "partial_p4_m10",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.1,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.35382010582010587,
+        "map_at_5_nonempty_truth": 0.37780790960451976,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 141,
+        "catalogue_coverage_at_5": 0.03557013118062563,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2585881469704999,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4635432604735883,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "bffef8684e7c71216ddb1c7cede5ef2246b127b785cd726b734fec20e95d5398"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "partial_p4_m25",
+      "params": {
+        "id": "partial_p4_m25",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.25,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3546386684303351,
+        "map_at_5_nonempty_truth": 0.3786819679849341,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 121,
+        "catalogue_coverage_at_5": 0.030524722502522705,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.26193870340929165,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4617791438979963,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "e3cc1dc61e30eed6020e65f373538cf186daaaf0a2a99c95dc3092de263f3a46"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "partial_p4_m50",
+      "params": {
+        "id": "partial_p4_m50",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.5,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.34566181657848327,
+        "map_at_5_nonempty_truth": 0.36909651600753296,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 136,
+        "catalogue_coverage_at_5": 0.034308779011099896,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2605091856562445,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4447108378870674,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "91da51e1e4cccc282939b9494bde1386c547c425a95724b88c942f694ed7001f"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "exposure_raw_b025",
+      "params": {
+        "id": "exposure_raw_b025",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.3529933862433863,
+        "map_at_5_nonempty_truth": 0.37692514124293786,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 186,
+        "catalogue_coverage_at_5": 0.046922300706357216,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2599748277689454,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46040573770491805,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "368b60c8c2c18e239b4ad0aeac9700c08d34ed7afdfba69e2201f15b882d353e"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "exposure_raw_b05",
+      "params": {
+        "id": "exposure_raw_b05",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.35219554673721337,
+        "map_at_5_nonempty_truth": 0.37607321092278717,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 237,
+        "catalogue_coverage_at_5": 0.059788092835519675,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2585576753223812,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4602190346083788,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "0cac741444139511e9778a2cf6077e436285c303239477eda2d9ec2db2383e19"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "exposure_raw_b1",
+      "params": {
+        "id": "exposure_raw_b1",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 1.0,
+        "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.32480533509700177,
+        "map_at_5_nonempty_truth": 0.34682603578154425,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 330,
+        "catalogue_coverage_at_5": 0.08324924318869828,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2416145557322028,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.42111338797814196,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "c3af3e60f9f14f06c7554a12b035e4e2092e4789619df8e1b49639136cc640b0"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "exposure_slots_b025",
+      "params": {
+        "id": "exposure_slots_b025",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.35331878306878306,
+        "map_at_5_nonempty_truth": 0.37727259887005654,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 186,
+        "catalogue_coverage_at_5": 0.046922300706357216,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.26089162692103873,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46013251366120217,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "44c081472c5a37a8eb39537c317f58b7f460c1b7b27f31d78b95eb4bd1080db5"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "exposure_slots_b05",
+      "params": {
+        "id": "exposure_slots_b05",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.3511241181657848,
+        "map_at_5_nonempty_truth": 0.3749291431261771,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 237,
+        "catalogue_coverage_at_5": 0.059788092835519675,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2570738385444268,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4595359744990893,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "a93ebe73cfacad9e3eca95e1f6f688db5ae84b44fc15d937fa5128a84e09f35f"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "exposure_slots_b1",
+      "params": {
+        "id": "exposure_slots_b1",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 1.0,
+        "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.3243675044091711,
+        "map_at_5_nonempty_truth": 0.3463585216572505,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 330,
+        "catalogue_coverage_at_5": 0.08324924318869828,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.24040363893305072,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.421457650273224,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "df02527180a44c7790c991d07b504ba3668f3e6d77180ab7cd64326ee66cb1d5"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p2_raw_b025",
+      "params": {
+        "id": "combo_p2_raw_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3582083333333333,
+        "map_at_5_nonempty_truth": 0.38249364406779657,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 130,
+        "catalogue_coverage_at_5": 0.03279515640766902,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2631924571630454,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46785974499089256,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "9f5af31821f148a0f1f231dd3199781f8f42bf69d8036d2d106fdc5539b2521c"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p2_raw_b05",
+      "params": {
+        "id": "combo_p2_raw_b05",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.35786111111111113,
+        "map_at_5_nonempty_truth": 0.3821228813559322,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 164,
+        "catalogue_coverage_at_5": 0.04137235116044399,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2638813813813814,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46643214936247723,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "36dc34a6fccc1011966f84583d08d659b68b47dfaff3e32aa15c7d725778c0ec"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p2_slots_b025",
+      "params": {
+        "id": "combo_p2_slots_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3583026895943563,
+        "map_at_5_nonempty_truth": 0.3825943973634652,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 130,
+        "catalogue_coverage_at_5": 0.03279515640766902,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2634503621268327,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4677887067395264,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "e012570c0ab526abedfb3d2d6cfb743144715a019a9d176e811c0a2551fe18ac"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p2_slots_b05",
+      "params": {
+        "id": "combo_p2_slots_b05",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.35715586419753087,
+        "map_at_5_nonempty_truth": 0.38136982109227874,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 163,
+        "catalogue_coverage_at_5": 0.041120080726538846,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2631814167108285,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46569717668488164,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "3a693001b884792e3817f449609edbc031358d681f245fc051dfe6770feee91d"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p4_raw_b025",
+      "params": {
+        "id": "combo_p4_raw_b025",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3566157407407407,
+        "map_at_5_nonempty_truth": 0.3807930790960452,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 132,
+        "catalogue_coverage_at_5": 0.033299697275479316,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2633964847200141,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46435974499089244,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "20295af2275122edc12ae208a04e3daec572bfbdbfccf628b80c878c1c2a463a"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p4_raw_b05",
+      "params": {
+        "id": "combo_p4_raw_b05",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3559087301587302,
+        "map_at_5_nonempty_truth": 0.38003813559322036,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 167,
+        "catalogue_coverage_at_5": 0.042129162462159433,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2633964847200141,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46289936247723135,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "2445f71ba3e36f94b9934f62ccb63b76ac810c493397e8d11a05dcbc109ef081"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p4_slots_b025",
+      "params": {
+        "id": "combo_p4_slots_b025",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3572894620811288,
+        "map_at_5_nonempty_truth": 0.3815124764595104,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 135,
+        "catalogue_coverage_at_5": 0.03405650857719475,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2644757993287405,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46463843351548273,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "2080a7ed6e9e997393abd6b389dd2d3be97adf0067b894fc2b0339c8a7f33ee3"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "combo_p4_slots_b05",
+      "params": {
+        "id": "combo_p4_slots_b05",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.356091049382716,
+        "map_at_5_nonempty_truth": 0.3802328154425612,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 167,
+        "catalogue_coverage_at_5": 0.042129162462159433,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2638133721957251,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46284608378870673,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "c2c6c0ef8c4c263ff8842026a4a807ebd69ff727814b3c53c00a588aacfcd792"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "probability_k10_m15",
+      "params": {
+        "id": "probability_k10_m15",
+        "family": "probability",
+        "kappa": 10,
+        "mix": 0.15,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.15}"
+      },
+      "metrics": {
+        "map_at_5": 0.35518099647266316,
+        "map_at_5_nonempty_truth": 0.37926106403013177,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 185,
+        "catalogue_coverage_at_5": 0.04667003027245207,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2605219925808161,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4643602003642987,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "84da76361323afe63846e35a836d5054970dd0eddf5b118fc7af2cc5c58dd008"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "probability_k10_m30",
+      "params": {
+        "id": "probability_k10_m30",
+        "family": "probability",
+        "kappa": 10,
+        "mix": 0.3,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.3}"
+      },
+      "metrics": {
+        "map_at_5": 0.3539801587301587,
+        "map_at_5_nonempty_truth": 0.377978813559322,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 207,
+        "catalogue_coverage_at_5": 0.052219979818365285,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2574924924924925,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46500364298724955,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "fd3fc46155f9af8aa78f7489a62afb0b0bcf7b8c385713237a59d5a456787dbd"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "probability_k50_m15",
+      "params": {
+        "id": "probability_k50_m15",
+        "family": "probability",
+        "kappa": 50,
+        "mix": 0.15,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.15}"
+      },
+      "metrics": {
+        "map_at_5": 0.3548251763668431,
+        "map_at_5_nonempty_truth": 0.378881120527307,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 145,
+        "catalogue_coverage_at_5": 0.03657921291624622,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.2603864158275923,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.4637650273224043,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "b44a47fda108144dbdd12f7cddcffea59fb0b75769c99bbdd29463e5b3915eac"
+    },
+    {
+      "phase": "fold_a",
+      "config_id": "probability_k50_m30",
+      "params": {
+        "id": "probability_k50_m30",
+        "family": "probability",
+        "kappa": 50,
+        "mix": 0.3,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.3}"
+      },
+      "metrics": {
+        "map_at_5": 0.3545108024691358,
+        "map_at_5_nonempty_truth": 0.3785454331450094,
+        "users": 1260,
+        "users_nonempty_truth": 1180,
+        "users_empty_truth": 80,
+        "unique_recommended_items": 135,
+        "catalogue_coverage_at_5": 0.03405650857719475,
+        "fallback_slot_fraction": 0.01904761904761905,
+        "positive_history_median_airings": 46.0,
+        "subgroups": {
+          "cold": {
+            "users": 21,
+            "map_at_5": 0.01904761904761905,
+            "nonempty_truth_users": 6
+          },
+          "light": {
+            "users": 629,
+            "map_at_5": 0.26037360890302064,
+            "nonempty_truth_users": 569
+          },
+          "heavy": {
+            "users": 610,
+            "map_at_5": 0.46312887067395264,
+            "nonempty_truth_users": 605
+          }
+        }
+      },
+      "prediction_sha256": "23c68c813ef5373bcb3ef16acf8760e4daa2ad9a5dec6bd61b20ef3543de76cc"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "v2_control",
+      "params": {
+        "id": "v2_control",
+        "family": "v2",
+        "semantic_key": "{\"family\":\"v2\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.26559722222222226,
+        "map_at_5_nonempty_truth": 0.36978176795580114,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 203,
+        "catalogue_coverage_at_5": 0.051667090862814964,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.17762311111111112,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3596581541218638,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "5883a2ee784d24c67e6dd9b3ad391a8ed8161ef8d676767b1cd124f25f2cb6ff"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "v3_control",
+      "params": {
+        "id": "v3_control",
+        "family": "v3",
+        "semantic_key": "{\"family\":\"v3\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.265179012345679,
+        "map_at_5_nonempty_truth": 0.3691995089011664,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 154,
+        "catalogue_coverage_at_5": 0.039195724102825145,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18041466666666664,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3559941756272401,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "2be2c50b63630b974d51aa770e2cd312db643d7e1f5f269b06a0122847f78d38"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "partial_p2_m10",
+      "params": {
+        "id": "partial_p2_m10",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.1,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.26878835978835974,
+        "map_at_5_nonempty_truth": 0.3742246777163904,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 183,
+        "catalogue_coverage_at_5": 0.046576737083227286,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18110622222222222,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3626321684587814,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "896e9fbb06fbf6991837b0234f88aabd7482bb5b46a3e89ae537825c29edea25"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "partial_p2_m25",
+      "params": {
+        "id": "partial_p2_m25",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.25,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.26929629629629626,
+        "map_at_5_nonempty_truth": 0.3749318600368324,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 155,
+        "catalogue_coverage_at_5": 0.03945024179180453,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1835088888888889,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3612423835125448,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "aa6693b1a97da322b5b73de3bd53eb3bf35051a5a53445c1ce68c81349178ace"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "partial_p2_m50",
+      "params": {
+        "id": "partial_p2_m50",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.5,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.26251455026455023,
+        "map_at_5_nonempty_truth": 0.3654898710865562,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 151,
+        "catalogue_coverage_at_5": 0.038432171035886996,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18374844444444444,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.34721863799283154,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "34649609fb687b7efb60a45f60969308ccfe977c4386c0529b6c18c43cbfc750"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "partial_p4_m10",
+      "params": {
+        "id": "partial_p4_m10",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.1,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.2696042768959436,
+        "map_at_5_nonempty_truth": 0.3753606507059546,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 184,
+        "catalogue_coverage_at_5": 0.04683125477220667,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18124044444444443,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.36415501792114696,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "da9342f26019f276c7d6edfcd55e940c7b71028fbe8d0f138d2e7a7d3ffc30aa"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "partial_p4_m25",
+      "params": {
+        "id": "partial_p4_m25",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.25,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.26707804232804233,
+        "map_at_5_nonempty_truth": 0.37184346224677717,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 162,
+        "catalogue_coverage_at_5": 0.04123186561466022,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18323111111111112,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.35701433691756274,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "ec51297c72d3f4c0f1954e5a64108950f58df66be627a06de4607a27726b65d3"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "partial_p4_m50",
+      "params": {
+        "id": "partial_p4_m50",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.5,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.2550200617283951,
+        "map_at_5_nonempty_truth": 0.35505555555555557,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 236,
+        "catalogue_coverage_at_5": 0.06006617459913464,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18239866666666668,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3333485663082437,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "2ec96ab68b198944665171f7e280e1bf035f75f56f4bcb276c8412a5bbd64ed0"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "exposure_raw_b025",
+      "params": {
+        "id": "exposure_raw_b025",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.2659442239858907,
+        "map_at_5_nonempty_truth": 0.3702648864333947,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 220,
+        "catalogue_coverage_at_5": 0.05599389157546449,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1774302222222222,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3605577956989247,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "58825628ebebf9c3e53a363cb1add8786591941d2a8136cba46786ed2f73c54b"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "exposure_raw_b05",
+      "params": {
+        "id": "exposure_raw_b05",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.2631763668430335,
+        "map_at_5_nonempty_truth": 0.36641129527317373,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 284,
+        "catalogue_coverage_at_5": 0.07228302367014508,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.17480666666666667,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3575775089605735,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "16529e5afcf57a7637940c9d2f73ec6e305ec64901781f505944936cb73848d5"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "exposure_raw_b1",
+      "params": {
+        "id": "exposure_raw_b1",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 1.0,
+        "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.23884898589065257,
+        "map_at_5_nonempty_truth": 0.3325411295273174,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 399,
+        "catalogue_coverage_at_5": 0.10155255790277425,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.16048177777777778,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3225784050179212,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "d1ae7c9f2771ff66cd6a60586a16864ed702ede3db33a3a1825773769d148a0c"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "exposure_slots_b025",
+      "params": {
+        "id": "exposure_slots_b025",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.26605379188712525,
+        "map_at_5_nonempty_truth": 0.3704174340085942,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 221,
+        "catalogue_coverage_at_5": 0.056248409264443876,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.17806177777777776,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3601438172043011,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "2be6a71958dbb841a592b365cd059c1fe8d77a1d85e68b32a6b1b59cac7b4b4e"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "exposure_slots_b05",
+      "params": {
+        "id": "exposure_slots_b05",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.2629865520282187,
+        "map_at_5_nonempty_truth": 0.36614702271332106,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 283,
+        "catalogue_coverage_at_5": 0.0720285059811657,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.17479733333333333,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.357201164874552,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "523db052d487e8cd3d489597e9eb5df02122a71e11b046d6fc413cd68fe7c062"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "exposure_slots_b1",
+      "params": {
+        "id": "exposure_slots_b1",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 1.0,
+        "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.23963403880070544,
+        "map_at_5_nonempty_truth": 0.333634131368938,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 399,
+        "catalogue_coverage_at_5": 0.10155255790277425,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.16117777777777778,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.32347222222222216,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "72b548e944ee1a6ccb028fad9a58346b46c3366b49d064fcde2895c49750b4cf"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p2_raw_b025",
+      "params": {
+        "id": "combo_p2_raw_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.27180180776014107,
+        "map_at_5_nonempty_truth": 0.3784201964395335,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 165,
+        "catalogue_coverage_at_5": 0.04199541868159837,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1846124444444444,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3652217741935484,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "58610171362ee8d77e6ffd3d4c279cabe5a68ae7627fd3e5a413ffc8ddd76033"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p2_raw_b05",
+      "params": {
+        "id": "combo_p2_raw_b05",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.27124118165784833,
+        "map_at_5_nonempty_truth": 0.37763965623081647,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 197,
+        "catalogue_coverage_at_5": 0.05013998472893866,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18441022222222223,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.36428629032258064,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "f3424b827e1753478339b3d27273513d3b95d0e994b644c3376f55a9a98a6a96"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p2_slots_b025",
+      "params": {
+        "id": "combo_p2_slots_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.271706569664903,
+        "map_at_5_nonempty_truth": 0.37828759975445064,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 163,
+        "catalogue_coverage_at_5": 0.0414863833036396,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18455911111111112,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3650819892473119,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "7b2c7c92411cf34035519f9ee35eda06f5bb51da7dfea3edc4285da063f22ce4"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p2_slots_b05",
+      "params": {
+        "id": "combo_p2_slots_b05",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.2712751322751323,
+        "map_at_5_nonempty_truth": 0.37768692449355434,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 199,
+        "catalogue_coverage_at_5": 0.05064902010689743,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1845862222222222,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.36417786738351254,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "e8ae9aa2c18934a9e461af519600898643d7c203ea8beeba3f7ed567b81eadae"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p4_raw_b025",
+      "params": {
+        "id": "combo_p4_raw_b025",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.27115123456790124,
+        "map_at_5_nonempty_truth": 0.3775144260282382,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 175,
+        "catalogue_coverage_at_5": 0.044540595571392214,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1861191111111111,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.36238082437275987,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "75dc01c5032992173a034b410bc9b58e3fa53c2b99029c19e3040283091ac2a6"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p4_raw_b05",
+      "params": {
+        "id": "combo_p4_raw_b05",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.27115850970017635,
+        "map_at_5_nonempty_truth": 0.37752455494168197,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 206,
+        "catalogue_coverage_at_5": 0.05243064392975312,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18578177777777777,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.36273566308243727,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "e8448e2cad92f24df16fa87a67dfe06d516f4ed9911a6e3bcbe217746bca61ea"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p4_slots_b025",
+      "params": {
+        "id": "combo_p4_slots_b025",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.27118827160493825,
+        "map_at_5_nonempty_truth": 0.3775659914057704,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 174,
+        "catalogue_coverage_at_5": 0.04428607788241283,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18633777777777777,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.36223566308243726,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "dc1a808429413e1672589d41e16a2af4bdfb221f4b76c8be6e2afd4a1ea5728e"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "combo_p4_slots_b05",
+      "params": {
+        "id": "combo_p4_slots_b05",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.27092570546737216,
+        "map_at_5_nonempty_truth": 0.37720042971147943,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 209,
+        "catalogue_coverage_at_5": 0.05319419699669127,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18572311111111112,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3623216845878136,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "d26ea67166588b32b87f11ad119ca5e54d4a4db25dd093182223ceda0eee3eb6"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "probability_k10_m15",
+      "params": {
+        "id": "probability_k10_m15",
+        "family": "probability",
+        "kappa": 10,
+        "mix": 0.15,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.15}"
+      },
+      "metrics": {
+        "map_at_5": 0.26472861552028215,
+        "map_at_5_nonempty_truth": 0.36857243707796195,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 239,
+        "catalogue_coverage_at_5": 0.060829727666072794,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1792168888888889,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.35628629032258063,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "6ba519b9886d387f54c5458c8499b6afb3a239e555761c9638443cf4a8b0a8c4"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "probability_k10_m30",
+      "params": {
+        "id": "probability_k10_m30",
+        "family": "probability",
+        "kappa": 10,
+        "mix": 0.3,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.3}"
+      },
+      "metrics": {
+        "map_at_5": 0.2640002204585538,
+        "map_at_5_nonempty_truth": 0.3675583179864948,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 251,
+        "catalogue_coverage_at_5": 0.0638839399338254,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.17758444444444443,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3564516129032258,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "01d750c4a3111dc70e7d6f13f19538300c5b3aa95846d6b32dac31303229ca0e"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "probability_k50_m15",
+      "params": {
+        "id": "probability_k50_m15",
+        "family": "probability",
+        "kappa": 50,
+        "mix": 0.15,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.15}"
+      },
+      "metrics": {
+        "map_at_5": 0.2653743386243386,
+        "map_at_5_nonempty_truth": 0.36947145488029465,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 183,
+        "catalogue_coverage_at_5": 0.046576737083227286,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.18078977777777777,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3560129928315412,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "1270d62f324889c87d2567ba4f17d75b8a3468c142e063843e8ed9b40b3c9e47"
+    },
+    {
+      "phase": "fold_b",
+      "config_id": "probability_k50_m30",
+      "params": {
+        "id": "probability_k50_m30",
+        "family": "probability",
+        "kappa": 50,
+        "mix": 0.3,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.3}"
+      },
+      "metrics": {
+        "map_at_5": 0.26457164902998237,
+        "map_at_5_nonempty_truth": 0.36835389809699204,
+        "users": 1260,
+        "users_nonempty_truth": 905,
+        "users_empty_truth": 355,
+        "unique_recommended_items": 168,
+        "catalogue_coverage_at_5": 0.042758971748536524,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 69.0,
+        "subgroups": {
+          "cold": {
+            "users": 15,
+            "map_at_5": 0.043333333333333335,
+            "nonempty_truth_users": 2
+          },
+          "light": {
+            "users": 625,
+            "map_at_5": 0.1804502222222222,
+            "nonempty_truth_users": 378
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3547240143369175,
+            "nonempty_truth_users": 525
+          }
+        }
+      },
+      "prediction_sha256": "5ea7e2ff9e2583dfd22cb366d36d9b886374b100a6a8224bca4cfc0cd6eb06ab"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "v2_control",
+      "params": {
+        "id": "v2_control",
+        "family": "v2",
+        "semantic_key": "{\"family\":\"v2\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.33817658730158734,
+        "map_at_5_nonempty_truth": 0.35041324013157893,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 201,
+        "catalogue_coverage_at_5": 0.050566037735849056,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2576515151515152,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4247123655913979,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "013af8c2138636ca77b02c10425542c5fcb1d8a1c3074e4d814867a7c2fa7599"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "v3_control",
+      "params": {
+        "id": "v3_control",
+        "family": "v3",
+        "semantic_key": "{\"family\":\"v3\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.3413174603174603,
+        "map_at_5_nonempty_truth": 0.3536677631578947,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 148,
+        "catalogue_coverage_at_5": 0.03723270440251572,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2600345560871877,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4286854838709679,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "8c9798ef397914018b1493ff161ae71a3cd54efa15950986e4dbe33625c0b091"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "partial_p2_m10",
+      "params": {
+        "id": "partial_p2_m10",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.1,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3420597442680776,
+        "map_at_5_nonempty_truth": 0.3544369060672515,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 181,
+        "catalogue_coverage_at_5": 0.045534591194968554,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2609002303739146,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42931854838709677,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "2f650e03f50051d9d299b65ceb3d559ab00708a4244b8a46c2832e2e62ebdffd"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "partial_p2_m25",
+      "params": {
+        "id": "partial_p2_m25",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.25,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3410363756613756,
+        "map_at_5_nonempty_truth": 0.35337650767543866,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 154,
+        "catalogue_coverage_at_5": 0.038742138364779875,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2629598617756512,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42515591397849467,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "8ffa32202a7dc421ae7c66fb4c6b2ae535170ccc8c1720327e67fc6b77164232"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "partial_p2_m50",
+      "params": {
+        "id": "partial_p2_m50",
+        "family": "partial",
+        "p": 2,
+        "mix": 0.5,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.33228218694885364,
+        "map_at_5_nonempty_truth": 0.34430555555555553,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 159,
+        "catalogue_coverage_at_5": 0.04,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.26186159844054585,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4084758064516129,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "0a2d2161a85355a903e4c12ba4231c34e1a477e06db736b1221da21fbabc9233"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "partial_p4_m10",
+      "params": {
+        "id": "partial_p4_m10",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.1,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3417180335097002,
+        "map_at_5_nonempty_truth": 0.3540828307748538,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 182,
+        "catalogue_coverage_at_5": 0.04578616352201258,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.26087674995569726,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42864784946236556,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "dbc612b2091b134276c70a52c5702270672892d50abfb83a3c07e50691e2b706"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "partial_p4_m25",
+      "params": {
+        "id": "partial_p4_m25",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.25,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.33937632275132273,
+        "map_at_5_nonempty_truth": 0.3516563870614035,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 159,
+        "catalogue_coverage_at_5": 0.04,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2612719298245614,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42348924731182797,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "712b77591d949db58a6c968e04d63754fd86e1449efc490c7175c55cc3b74d9a"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "partial_p4_m50",
+      "params": {
+        "id": "partial_p4_m50",
+        "family": "partial",
+        "p": 4,
+        "mix": 0.5,
+        "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3239446649029983,
+        "map_at_5_nonempty_truth": 0.33566634685672514,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 226,
+        "catalogue_coverage_at_5": 0.056855345911949684,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2582939039517987,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3951397849462366,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "c5459571ef365aa7137d6fa6b88b2cd3743a8518db723f027b8eacf59ba5385a"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "exposure_raw_b025",
+      "params": {
+        "id": "exposure_raw_b025",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.34007539682539684,
+        "map_at_5_nonempty_truth": 0.35238075657894735,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 211,
+        "catalogue_coverage_at_5": 0.05308176100628931,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2579177742335637,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4283019713261649,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "3cd6ad51d3740151c04a14623711b1fa1485b8593c0d047a757a710347cfd0dc"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "exposure_raw_b05",
+      "params": {
+        "id": "exposure_raw_b05",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.33655930335097006,
+        "map_at_5_nonempty_truth": 0.3487374360380117,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 261,
+        "catalogue_coverage_at_5": 0.06566037735849056,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.25419059011164274,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42492562724014343,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "02591613a215d040db5f43e3c3d9b68d1afcd0fd39fc051b3601290c2974d62c"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "exposure_raw_b1",
+      "params": {
+        "id": "exposure_raw_b1",
+        "family": "exposure",
+        "exposure_mode": "raw",
+        "beta": 1.0,
+        "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.2994351851851852,
+        "map_at_5_nonempty_truth": 0.31027001096491225,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 407,
+        "catalogue_coverage_at_5": 0.10238993710691824,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2321331738437002,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.37178629032258065,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "a898f873ee63df21f3d6f18a8b2eebfa292831ae3f169d7de84bc4685a362e7e"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "exposure_slots_b025",
+      "params": {
+        "id": "exposure_slots_b025",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.3402248677248677,
+        "map_at_5_nonempty_truth": 0.3525356359649123,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 211,
+        "catalogue_coverage_at_5": 0.05308176100628931,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.25716551479709376,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4293664874551972,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "32fd8dd735832cf69cbce32053903e565d5c74965387666943219f67f75fedea"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "exposure_slots_b05",
+      "params": {
+        "id": "exposure_slots_b05",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.33652314814814815,
+        "map_at_5_nonempty_truth": 0.34869997258771934,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 261,
+        "catalogue_coverage_at_5": 0.06566037735849056,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2539531277689172,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4250922939068101,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "4348e0c8c51b7f44292b2f5f9d44b3f0d7fc0f4335ca7ec6a786450b457f04ef"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "exposure_slots_b1",
+      "params": {
+        "id": "exposure_slots_b1",
+        "family": "exposure",
+        "exposure_mode": "slots",
+        "beta": 1.0,
+        "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+      },
+      "metrics": {
+        "map_at_5": 0.29836618165784834,
+        "map_at_5_nonempty_truth": 0.3091623263888889,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 408,
+        "catalogue_coverage_at_5": 0.10264150943396226,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.23268562821194402,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.3690551075268817,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "52f697cfb780d662adeec4b59cdd9fef255ce0f526d022293811ef9210488d0a"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p2_raw_b025",
+      "params": {
+        "id": "combo_p2_raw_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3429801587301587,
+        "map_at_5_nonempty_truth": 0.35539062499999996,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 169,
+        "catalogue_coverage_at_5": 0.04251572327044025,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2632004253056885,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42886290322580645,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "746d6eb41bbe6fc0ce94995be3b507e4a682587620ce6d4fb1553c8caff85f0e"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p2_raw_b05",
+      "params": {
+        "id": "combo_p2_raw_b05",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.34100771604938274,
+        "map_at_5_nonempty_truth": 0.3533468110380117,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 193,
+        "catalogue_coverage_at_5": 0.04855345911949686,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2614695197589934,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4266048387096774,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "48be247a9cb7ac05cd1972335d8bf40811d63164f5f55c53e523bfc208b1712d"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p2_slots_b025",
+      "params": {
+        "id": "combo_p2_slots_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.34273853615520283,
+        "map_at_5_nonempty_truth": 0.35514025950292405,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 168,
+        "catalogue_coverage_at_5": 0.04226415094339623,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2625979089136984,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42898118279569897,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "701c8813aeebe74e07b94ee6fb21ad589b4c0015bb42d05b60a0550f7b3fe2bb"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p2_slots_b05",
+      "params": {
+        "id": "combo_p2_slots_b05",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3402577160493827,
+        "map_at_5_nonempty_truth": 0.352569672880117,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 194,
+        "catalogue_coverage_at_5": 0.04880503144654088,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2612329434697856,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42531989247311836,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "45a39c177093c8af7b2f1aefa881a3d10082697e4c7f88b57698d25fa6617001"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p4_raw_b025",
+      "params": {
+        "id": "combo_p4_raw_b025",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3411172839506173,
+        "map_at_5_nonempty_truth": 0.3534603435672515,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 174,
+        "catalogue_coverage_at_5": 0.04377358490566038,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.26249689881268834,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4257885304659499,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "b70b22e7062d1d3a95c067190069f852a4db92bec19ce04e364aea82ecd781b7"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p4_raw_b05",
+      "params": {
+        "id": "combo_p4_raw_b05",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.338831569664903,
+        "map_at_5_nonempty_truth": 0.3510919225146199,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 202,
+        "catalogue_coverage_at_5": 0.05081761006289308,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2613219918483076,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42233154121863803,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "9e76f30590d1f38186d82ad121800ca55cf21915150643c9ad0848ddb287f5a5"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p4_slots_b025",
+      "params": {
+        "id": "combo_p4_slots_b025",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.3412336860670194,
+        "map_at_5_nonempty_truth": 0.3535809576023392,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 174,
+        "catalogue_coverage_at_5": 0.04377358490566038,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2631508063087011,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42536379928315415,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "1cc5658e6c6b9dea79ba2ce364d85846440a912a02f1f22db1adf554f5288392"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "combo_p4_slots_b05",
+      "params": {
+        "id": "combo_p4_slots_b05",
+        "family": "combo",
+        "p": 4,
+        "mix": 0.25,
+        "exposure_mode": "slots",
+        "beta": 0.5,
+        "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+      },
+      "metrics": {
+        "map_at_5": 0.33849162257495596,
+        "map_at_5_nonempty_truth": 0.35073967470760237,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 204,
+        "catalogue_coverage_at_5": 0.05132075471698113,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.26120237462342727,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4217616487455198,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "f4f97cd63d054b61850af24f8c06ff8d3625deed36d56bba3a20d3c81ca3e906"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "probability_k10_m15",
+      "params": {
+        "id": "probability_k10_m15",
+        "family": "probability",
+        "kappa": 10,
+        "mix": 0.15,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.15}"
+      },
+      "metrics": {
+        "map_at_5": 0.33760978835978833,
+        "map_at_5_nonempty_truth": 0.34982593201754386,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 232,
+        "catalogue_coverage_at_5": 0.05836477987421384,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2571065922381712,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42411155913978493,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "8197203e8ec3f63fe6c505e757229c821c15f9ea6d8fa80d9e322c523b60853b"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "probability_k10_m30",
+      "params": {
+        "id": "probability_k10_m30",
+        "family": "probability",
+        "kappa": 10,
+        "mix": 0.3,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.3}"
+      },
+      "metrics": {
+        "map_at_5": 0.3340112433862434,
+        "map_at_5_nonempty_truth": 0.34609717653508776,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 243,
+        "catalogue_coverage_at_5": 0.06113207547169811,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.2506454899875953,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42333243727598574,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "2a84719830e199452671b370168129d367404b82aecf7ed9cc8b4f3280765bf7"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "probability_k50_m15",
+      "params": {
+        "id": "probability_k50_m15",
+        "family": "probability",
+        "kappa": 50,
+        "mix": 0.15,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.15}"
+      },
+      "metrics": {
+        "map_at_5": 0.3398555996472663,
+        "map_at_5_nonempty_truth": 0.3521530062134503,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 189,
+        "catalogue_coverage_at_5": 0.047547169811320754,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.25924508240297717,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.42651299283154126,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "2fb89784ccd2d5d986314e262b5390e7f0b072a0f30600b3e208b5a88d005f78"
+    },
+    {
+      "phase": "fold_c",
+      "config_id": "probability_k50_m30",
+      "params": {
+        "id": "probability_k50_m30",
+        "family": "probability",
+        "kappa": 50,
+        "mix": 0.3,
+        "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.3}"
+      },
+      "metrics": {
+        "map_at_5": 0.3390251322751323,
+        "map_at_5_nonempty_truth": 0.35129248903508775,
+        "users": 1260,
+        "users_nonempty_truth": 1216,
+        "users_empty_truth": 44,
+        "unique_recommended_items": 177,
+        "catalogue_coverage_at_5": 0.04452830188679245,
+        "fallback_slot_fraction": 0.012698412698412698,
+        "positive_history_median_airings": 82.0,
+        "subgroups": {
+          "cold": {
+            "users": 13,
+            "map_at_5": 0.09487179487179488,
+            "nonempty_truth_users": 9
+          },
+          "light": {
+            "users": 627,
+            "map_at_5": 0.25939615452773346,
+            "nonempty_truth_users": 593
+          },
+          "heavy": {
+            "users": 620,
+            "map_at_5": 0.4246724910394265,
+            "nonempty_truth_users": 614
+          }
+        }
+      },
+      "prediction_sha256": "76be76a56205279a3a3030edb08eca82a661eac5a9b291b0f303b94cc30b0392"
+    }
+  ],
+  "selection": {
+    "chosen_config": {
+      "id": "combo_p2_raw_b025",
+      "family": "combo",
+      "p": 2,
+      "mix": 0.25,
+      "exposure_mode": "raw",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+    },
+    "chosen_phase": "A",
+    "phase_b_required": false,
+    "phase_b_executed": false,
+    "rolling": {
+      "config_id": "combo_p2_raw_b025",
+      "fold_maps": [
+        0.3582083333333333,
+        0.27180180776014107,
+        0.3429801587301587
+      ],
+      "mean_map_at_5": 0.32433009994121104,
+      "fold_deltas_vs_v2": [
+        0.007470679012345679,
+        0.0062045855379188695,
+        0.004803571428571428
+      ],
+      "fold_deltas_vs_v3": [
+        0.0056785714285714295,
+        0.006622795414462079,
+        0.0016626984126984139
+      ],
+      "mean_delta_vs_v2": 0.0061596119929453255,
+      "mean_delta_vs_v3": 0.004654688418577308,
+      "eligible": true,
+      "combined_prediction_sha256": "9096885ad89fce73011c8bac4d32d2548a6f9c82726ddf42b16b6592ec83322b"
+    },
+    "diagnostic_deltas": {
+      "stress": {
+        "vs_v2": 0.008332451499118166,
+        "vs_v3": 0.00568342151675485
+      },
+      "old_window": {
+        "vs_v2": 0.014363536155202824,
+        "vs_v3": 0.010247574955908289
+      }
+    }
+  },
+  "development_selection_warning": "Previously studied windows; not an untouched generalization test"
+}
