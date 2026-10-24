@@ -4,12 +4,22 @@
   "python": "3.12.14",
   "identifier_policy": "Exact strings for user IDs; exact integers for programme/airing IDs",
   "window_time_basis": "Naive wallclock integer seconds, half-open observation windows",
-  "publication_status": "Public repository created; upload in progress; remote commit and file SHA-256 verification pending",
+  "publication_status": "Public publication completed; preceding repository snapshot byte-verified; current revision changes README and publication metadata only",
   "repository_url": "https://github.com/ulianakazak/sweettv-recommender-exam",
   "publication_verification": {
-    "state": "pending",
-    "remote_commit": null,
-    "remote_files_sha256_verified": false,
-    "source": "Repository creation reported by authorized publishing chat; no upload performed by this report task"
+    "state": "verified_pre_metadata_revision_snapshot",
+    "verified_snapshot_commit": "5f7eceaaf7a813258487c5c3d2afffca9bfee7bf",
+    "snapshot_relationship": "This verified commit precedes the metadata-only revision containing this file; it is not a self-commit assertion",
+    "verified_at_utc": "2026-10-24T20:08:55.803957+00:00",
+    "verified_file_count": 42,
+    "all_snapshot_files_byte_identical": true,
+    "snapshot_github_zip_sha256": "32494077ba3ee93b37fd797c1c31cd781bdfd453e93bc6cd5b88f7b6a893df17",
+    "current_metadata_revision_files": [
+      "README.md",
+      "configs/reproducibility.json"
+    ],
+    "unchanged_files_against_verified_snapshot": 40,
+    "final_submission_sha256": "0dc3c8601b01ba093c302feedd257cf11bcdad8106ac9fad53ad6b58b51a03ab",
+    "verification_source": "Authorized publishing chat downloaded GitHub ZIP and compared SHA-256 of all 42 files; verified snapshot evidence is retained with the exam delivery"
   }
 }
