@@ -1,0 +1,22 @@
+{
+  "data_dir": "data/raw",
+  "prepared_dir": "work/prepared",
+  "output_dir": "work/preparation_audit",
+  "seed": 42,
+  "k": 5,
+  "watch_fraction_min": 0.8,
+  "time_basis": "timezone_naive_wallclock; no location/timezone inferred",
+  "mismatched_log_duration_policy": "exclude when raw duraton differs from naive stop-start; DST-like ambiguity",
+  "start": "2020-03-09",
+  "tune_cutoff": "2020-04-27",
+  "validation_cutoff": "2020-05-18",
+  "test_cutoff": "2020-07-27",
+  "test_end": "2020-10-19",
+  "allow_history_repeats": true,
+  "frequency_unit": "distinct airing after union of same-user same-channel viewing fragments",
+  "truth_rule": "top5 qualifying programme counts DESC, programme ID ASC on ties",
+  "boundary_policy": "clip observed seconds to each window; preserve full airing duration denominator",
+  "metadata_policy": "last nonempty field from airings starting strictly before training cutoff",
+  "schedule_conflict_policy": "remove both conflicting labelled airings from interaction join; availability candidates keep any labelled airing",
+  "future_features": "Baseline prepare/evaluate uses target IDs only; V4 explicitly uses structural target timetable exposure per configs/v4.json, never future viewing/content metadata."
+}
