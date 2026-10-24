@@ -1,0 +1,175 @@
+{
+  "scope": "Original saved results, no refit/rescoring",
+  "train": [
+    "2020-03-09",
+    "2020-05-18"
+  ],
+  "target": [
+    "2020-05-18",
+    "2020-07-27"
+  ],
+  "cohort_users": 1260,
+  "candidate_count": 6384,
+  "records": [
+    {
+      "method": "popularity",
+      "params": {},
+      "metrics": {
+        "map_at_5": 0.26499074074074075,
+        "map_at_5_nonempty_truth": 0.2696997845988153,
+        "users": 1260,
+        "users_nonempty_truth": 1238,
+        "users_empty_truth": 22,
+        "unique_recommended_items": 5,
+        "catalogue_coverage_at_5": 0.0007832080200501253,
+        "fallback_slot_fraction": 0.0,
+        "positive_history_median_airings": 61.0,
+        "subgroups": {
+          "cold": {
+            "users": 18,
+            "map_at_5": 0.12407407407407407,
+            "nonempty_truth_users": 14
+          },
+          "light": {
+            "users": 628,
+            "map_at_5": 0.22853503184713378,
+            "nonempty_truth_users": 612
+          },
+          "heavy": {
+            "users": 614,
+            "map_at_5": 0.3064087947882736,
+            "nonempty_truth_users": 612
+          }
+        }
+      }
+    },
+    {
+      "method": "cbf",
+      "params": {
+        "profile_weighting": "log_count"
+      },
+      "metrics": {
+        "map_at_5": 0.176918430335097,
+        "map_at_5_nonempty_truth": 0.18006237659307125,
+        "users": 1260,
+        "users_nonempty_truth": 1238,
+        "users_empty_truth": 22,
+        "unique_recommended_items": 297,
+        "catalogue_coverage_at_5": 0.046522556390977444,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 61.0,
+        "subgroups": {
+          "cold": {
+            "users": 18,
+            "map_at_5": 0.12407407407407407,
+            "nonempty_truth_users": 14
+          },
+          "light": {
+            "users": 628,
+            "map_at_5": 0.15876769285208775,
+            "nonempty_truth_users": 612
+          },
+          "heavy": {
+            "users": 614,
+            "map_at_5": 0.1970322113644589,
+            "nonempty_truth_users": 612
+          }
+        }
+      }
+    },
+    {
+      "method": "implicit_mf",
+      "params": {
+        "factors": 32,
+        "regularization": 0.1,
+        "alpha": 10.0,
+        "iterations": 20
+      },
+      "metrics": {
+        "map_at_5": 0.20357716049382715,
+        "map_at_5_nonempty_truth": 0.20719484832166574,
+        "users": 1260,
+        "users_nonempty_truth": 1238,
+        "users_empty_truth": 22,
+        "unique_recommended_items": 166,
+        "catalogue_coverage_at_5": 0.02600250626566416,
+        "fallback_slot_fraction": 0.014285714285714285,
+        "positive_history_median_airings": 61.0,
+        "subgroups": {
+          "cold": {
+            "users": 18,
+            "map_at_5": 0.12407407407407407,
+            "nonempty_truth_users": 14
+          },
+          "light": {
+            "users": 628,
+            "map_at_5": 0.231498584571833,
+            "nonempty_truth_users": 612
+          },
+          "heavy": {
+            "users": 614,
+            "map_at_5": 0.17734980094100616,
+            "nonempty_truth_users": 612
+          }
+        }
+      }
+    },
+    {
+      "method": "v4_combo",
+      "params": {
+        "id": "combo_p2_raw_b025",
+        "family": "combo",
+        "p": 2,
+        "mix": 0.25,
+        "exposure_mode": "raw",
+        "beta": 0.25,
+        "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+      },
+      "metrics": {
+        "map_at_5": 0.3967303791887125,
+        "map_at_5_nonempty_truth": 0.4037805151678334,
+        "users": 1260,
+        "users_nonempty_truth": 1238,
+        "users_empty_truth": 22,
+        "unique_recommended_items": 162,
+        "catalogue_coverage_at_5": 0.02537593984962406,
+        "fallback_slot_fraction": 0.016666666666666666,
+        "positive_history_median_airings": 61.0,
+        "subgroups": {
+          "cold": {
+            "users": 18,
+            "map_at_5": 0.12407407407407407,
+            "nonempty_truth_users": 14
+          },
+          "light": {
+            "users": 628,
+            "map_at_5": 0.3057382342533616,
+            "nonempty_truth_users": 612
+          },
+          "heavy": {
+            "users": 614,
+            "map_at_5": 0.4977904451682953,
+            "nonempty_truth_users": 612
+          }
+        }
+      }
+    }
+  ],
+  "policy_limit": {
+    "same_candidate_pool_and_top5_format": true,
+    "same_train_popularity_fallback_order": true,
+    "true_cold_users": 18,
+    "extra_v4_zero_available_history_users": 3,
+    "explanation": "V4 explicitly falls back if qualified history exists only outside the target pool; original CBF/MF may still use a learned profile/score. Original saved rankings are retained; no cosmetic harmonization."
+  },
+  "source_sha256": {
+    "original_baseline_experiments": "f7a8dbe2b1c47ee954e8c4e0445a9ed73ab9c16244e87bc8a08b2cdb00776423",
+    "v4_diagnostics": "07519f70aaea50eec59da19c249ff6abc6588757267c7e7b2c8d587ba742f824"
+  },
+  "independent_comparison_audit": {
+    "all_checks_passed": true,
+    "saved_user_aps_recomputed_as_fractions": 5040,
+    "same_truth_for_all_saved_predictions": true,
+    "saved_baseline_ranks_match_frozen_combined_file": true
+  }
+}
