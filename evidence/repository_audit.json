@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "files_checked": 42,
+  "python_sources_parsed": 24,
+  "original_model_source_bytes_preserved": true,
+  "raw_and_caches_excluded": true,
+  "workstation_paths_excluded": true,
+  "actual_viewer_ids_only_in_required_submission": true,
+  "repository_not_published_by_this_task": true,
+  "credential_or_browser_state_files_included": false,
+  "checks_are_static_and_saved_artifact_only": true,
+  "new_model_runs": 0,
+  "problems": []
+}
