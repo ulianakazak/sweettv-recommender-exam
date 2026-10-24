@@ -1,0 +1,16 @@
+{
+  "status": "Complete (after deadline)",
+  "competition": "sweettv-tv-program-recommender",
+  "csv_sha256": "0dc3c8601b01ba093c302feedd257cf11bcdad8106ac9fad53ad6b58b51a03ab",
+  "config_id": "combo_p2_raw_b025",
+  "private_score": 0.41586,
+  "public_score": 0.42282,
+  "previous_private_score": 0.39893,
+  "previous_public_score": 0.4031,
+  "private_score_delta": 0.01693,
+  "public_score_delta": 0.01972,
+  "selection_used_kaggle_scores": false,
+  "source": "Previously saved orchestrator-authenticated UI evidence; no new external action by staging task",
+  "source_record_sha256": "5a3eb1bbd5785d45d02e702bdad9d54a8c0bfc19c09f3fb389ca585d165712f0",
+  "student_personal_verification": "not confirmed"
+}
