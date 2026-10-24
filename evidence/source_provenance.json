@@ -1,0 +1,163 @@
+{
+  "models_byte_identical_to_original": true,
+  "files": [
+    {
+      "source_relative_path": "src/sweettv/__init__.py",
+      "source_sha256": "2fb7ebd57a57ec7327944941063b5caa34e00770a903180c98d0ba4e998652a3",
+      "staged_sha256": "2fb7ebd57a57ec7327944941063b5caa34e00770a903180c98d0ba4e998652a3",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/evaluate.py",
+      "source_sha256": "acaff70e4f25483575171c627fb28ff4c357e9c752bae21de4e5194f8fa0c5a7",
+      "staged_sha256": "acaff70e4f25483575171c627fb28ff4c357e9c752bae21de4e5194f8fa0c5a7",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/exposure_v4.py",
+      "source_sha256": "e6d466d5bfd4b646ebb6531818a17e9b11447d589f67d2d607201999182e4ff2",
+      "staged_sha256": "e6d466d5bfd4b646ebb6531818a17e9b11447d589f67d2d607201999182e4ff2",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/frequency_v1.py",
+      "source_sha256": "f86d987806662497d4433961027f4f13aabd939e238e588ca826d3a73f2dfa58",
+      "staged_sha256": "f86d987806662497d4433961027f4f13aabd939e238e588ca826d3a73f2dfa58",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/hybrid_v3.py",
+      "source_sha256": "79cc51ea29d04d15eb7ddd47e8e59efe4bde5ab92b94a253a39bb9fe8d1b2fc2",
+      "staged_sha256": "79cc51ea29d04d15eb7ddd47e8e59efe4bde5ab92b94a253a39bb9fe8d1b2fc2",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/models.py",
+      "source_sha256": "00356dd8f793d832b972047f6fe63d25429ea29a715f6d002f6b326f211a2a63",
+      "staged_sha256": "00356dd8f793d832b972047f6fe63d25429ea29a715f6d002f6b326f211a2a63",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/partial_features_v4.py",
+      "source_sha256": "ae8b18b753aca0ef8876082d0bfa6a5ab5945800eefc726aac2c37d7cc025cc5",
+      "staged_sha256": "ae8b18b753aca0ef8876082d0bfa6a5ab5945800eefc726aac2c37d7cc025cc5",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/power_frequency_v2.py",
+      "source_sha256": "7358832962c8836ff82ed3afda3ab78b122c5c0e0ffc2e56d244dc62ba39a549",
+      "staged_sha256": "7358832962c8836ff82ed3afda3ab78b122c5c0e0ffc2e56d244dc62ba39a549",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/prepare.py",
+      "source_sha256": "fdb5d596b68c1083c49684f43803989ec99f4b2f1c33e3ca71249906c6cb246e",
+      "staged_sha256": "fdb5d596b68c1083c49684f43803989ec99f4b2f1c33e3ca71249906c6cb246e",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/rolling_v1.py",
+      "source_sha256": "70e0750fe4363f82501956fd45101a742a04a462ae9dbc6b975484ed04ec7358",
+      "staged_sha256": "70e0750fe4363f82501956fd45101a742a04a462ae9dbc6b975484ed04ec7358",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "src/sweettv/signals_v4.py",
+      "source_sha256": "e4b4e3dfb472e8fd73a75d3c9b995956c7f0fcefe5771cccd08ab0e502e56d89",
+      "staged_sha256": "e4b4e3dfb472e8fd73a75d3c9b995956c7f0fcefe5771cccd08ab0e502e56d89",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "scripts/prepare_stress_v3.py",
+      "source_sha256": "35d99c1b32fcb7a1cb9c1a0cd599c73b288853c2178bc5c3c9ca55683a4d44e4",
+      "staged_sha256": "35d99c1b32fcb7a1cb9c1a0cd599c73b288853c2178bc5c3c9ca55683a4d44e4",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "requirements.lock.txt",
+      "source_sha256": "2c4a6ca4f59893c9256b9f2af1910ae79417306a1b2513e7dde7088d0d67af5c",
+      "staged_sha256": "2c4a6ca4f59893c9256b9f2af1910ae79417306a1b2513e7dde7088d0d67af5c",
+      "byte_identical": true
+    },
+    {
+      "source_relative_path": "tests/test_exposure_v4.py",
+      "source_sha256": "7d738334f790375d7f2710fd41eee12b00c3486ac6ae786ad2ec093ba33ec3e3",
+      "staged_sha256": "7d738334f790375d7f2710fd41eee12b00c3486ac6ae786ad2ec093ba33ec3e3",
+      "byte_identical": true,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_frequency_v1.py",
+      "source_sha256": "6f1396fac596d1d62fb5763d29867df95f4b1f212465523dc92d74c54c2dd3f8",
+      "staged_sha256": "e75a319b5808e92437bded0c6acf6b2e2386b75deace30b89c073677a850330c",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_hybrid_v3.py",
+      "source_sha256": "4ef43bda733676ff545e424e959e64e335d6eba29a69018a63d7d172cfbfe872",
+      "staged_sha256": "ec1a52feb5c93e3fa2584f5ef304bced5067ab2eed42b975990936be776ea040",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_models.py",
+      "source_sha256": "14e4a95da93e8af7217ce30748e1d4be4c5bc12c13a487aa33c00a54715c9fbb",
+      "staged_sha256": "f9345c9189c318dcf80e7704b8c41d4a406d54447fd81d210f24fa1b0abe811f",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_partial_v4.py",
+      "source_sha256": "4dbf044eff34d9bc0c3d12f12bbf57d3b716ddb71e67fd971eae11ec0c10c836",
+      "staged_sha256": "d536ebbec3cc269bf7a868b0b517ae88a15660449e8f6687f83a59e46618f67a",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_power_frequency_v2.py",
+      "source_sha256": "e6b08f70504e67e114605020dfac60b12ad280b702870b1586096419de4039e3",
+      "staged_sha256": "ccf59d327529322253598b13faf4fa5650d12e65f8da67d49d3a605fc1ef176f",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_prepare.py",
+      "source_sha256": "ca4757c42de0877f0bffccaf23992b046a93cce7b73d3c8d88178776887e5456",
+      "staged_sha256": "e8991d8ec10370e218612eae661925cfc438ec681dd14e402a36d8bb3bae84a2",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_prepare_independent.py",
+      "source_sha256": "aced2d497333543a05a0ef618c4d6c7010de04c5e1a4fed4119537d7affb28fc",
+      "staged_sha256": "c7ff753873972785fd2c31307474240620994d1ca760034d2bcc4e91f688d614",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_rolling_v1.py",
+      "source_sha256": "9f6b826e19576bf8faa64a0384185e38ce56ca06679e9ceb228ae93bbfe5136f",
+      "staged_sha256": "4df8e7ae0d1dca51844b877dab0688bb7ab548e94907afd1e8ff50139435faac",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_signals_v4.py",
+      "source_sha256": "290e35ec54fd6a2deb0d25ba32356f13ad673f7a31b388b432eef799f7085705",
+      "staged_sha256": "b5ddce8c1b831c88b02c38bec49c0b6c70729b6816f6a9d511f62d092be112ac",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    },
+    {
+      "source_relative_path": "tests/test_stress_v3.py",
+      "source_sha256": "3c0ec9abe628296737450a075034eb14d8aa008e2d98585db14eb5457c6e5af3",
+      "staged_sha256": "286d8f1e2bdf7225e6ac9beaccc50804534c82094c4d7d376137738518f656cb",
+      "byte_identical": false,
+      "change": "Long integer fixture IDs replaced by synthetic IDs; order preserved"
+    }
+  ],
+  "new_portable_wrapper": "scripts/run_local.py",
+  "old_sources_modified": false,
+  "test_id_policy": "All long fixture IDs are synthetic in this publication copy; source mappings omitted"
+}
