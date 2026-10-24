@@ -1,0 +1,274 @@
+{
+  "seed": 42,
+  "threads": 1,
+  "train_start": "2020-03-09",
+  "folds": [
+    {
+      "id": "fold_a",
+      "cutoff": "2020-05-04",
+      "target_end": "2020-06-01"
+    },
+    {
+      "id": "fold_b",
+      "cutoff": "2020-06-01",
+      "target_end": "2020-06-29"
+    },
+    {
+      "id": "fold_c",
+      "cutoff": "2020-06-29",
+      "target_end": "2020-07-27"
+    }
+  ],
+  "diagnostics": [
+    {
+      "id": "stress",
+      "cutoff": "2020-04-06",
+      "target_end": "2020-05-04"
+    },
+    {
+      "id": "old_window",
+      "cutoff": "2020-05-18",
+      "target_end": "2020-07-27"
+    }
+  ],
+  "final": {
+    "cutoff": "2020-07-27",
+    "target_end": "2020-10-19"
+  },
+  "configs": [
+    {
+      "id": "v2_control",
+      "family": "v2",
+      "semantic_key": "{\"family\":\"v2\"}"
+    },
+    {
+      "id": "v3_control",
+      "family": "v3",
+      "semantic_key": "{\"family\":\"v3\"}"
+    },
+    {
+      "id": "partial_p2_m10",
+      "family": "partial",
+      "p": 2,
+      "mix": 0.1,
+      "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":2}"
+    },
+    {
+      "id": "partial_p2_m25",
+      "family": "partial",
+      "p": 2,
+      "mix": 0.25,
+      "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":2}"
+    },
+    {
+      "id": "partial_p2_m50",
+      "family": "partial",
+      "p": 2,
+      "mix": 0.5,
+      "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":2}"
+    },
+    {
+      "id": "partial_p4_m10",
+      "family": "partial",
+      "p": 4,
+      "mix": 0.1,
+      "semantic_key": "{\"family\":\"partial\",\"mix\":0.1,\"p\":4}"
+    },
+    {
+      "id": "partial_p4_m25",
+      "family": "partial",
+      "p": 4,
+      "mix": 0.25,
+      "semantic_key": "{\"family\":\"partial\",\"mix\":0.25,\"p\":4}"
+    },
+    {
+      "id": "partial_p4_m50",
+      "family": "partial",
+      "p": 4,
+      "mix": 0.5,
+      "semantic_key": "{\"family\":\"partial\",\"mix\":0.5,\"p\":4}"
+    },
+    {
+      "id": "exposure_raw_b025",
+      "family": "exposure",
+      "exposure_mode": "raw",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+    },
+    {
+      "id": "exposure_raw_b05",
+      "family": "exposure",
+      "exposure_mode": "raw",
+      "beta": 0.5,
+      "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+    },
+    {
+      "id": "exposure_raw_b1",
+      "family": "exposure",
+      "exposure_mode": "raw",
+      "beta": 1.0,
+      "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"raw\",\"family\":\"exposure\"}"
+    },
+    {
+      "id": "exposure_slots_b025",
+      "family": "exposure",
+      "exposure_mode": "slots",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+    },
+    {
+      "id": "exposure_slots_b05",
+      "family": "exposure",
+      "exposure_mode": "slots",
+      "beta": 0.5,
+      "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+    },
+    {
+      "id": "exposure_slots_b1",
+      "family": "exposure",
+      "exposure_mode": "slots",
+      "beta": 1.0,
+      "semantic_key": "{\"beta\":1.0,\"exposure_mode\":\"slots\",\"family\":\"exposure\"}"
+    },
+    {
+      "id": "combo_p2_raw_b025",
+      "family": "combo",
+      "p": 2,
+      "mix": 0.25,
+      "exposure_mode": "raw",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+    },
+    {
+      "id": "combo_p2_raw_b05",
+      "family": "combo",
+      "p": 2,
+      "mix": 0.25,
+      "exposure_mode": "raw",
+      "beta": 0.5,
+      "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+    },
+    {
+      "id": "combo_p2_slots_b025",
+      "family": "combo",
+      "p": 2,
+      "mix": 0.25,
+      "exposure_mode": "slots",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+    },
+    {
+      "id": "combo_p2_slots_b05",
+      "family": "combo",
+      "p": 2,
+      "mix": 0.25,
+      "exposure_mode": "slots",
+      "beta": 0.5,
+      "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+    },
+    {
+      "id": "combo_p4_raw_b025",
+      "family": "combo",
+      "p": 4,
+      "mix": 0.25,
+      "exposure_mode": "raw",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+    },
+    {
+      "id": "combo_p4_raw_b05",
+      "family": "combo",
+      "p": 4,
+      "mix": 0.25,
+      "exposure_mode": "raw",
+      "beta": 0.5,
+      "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+    },
+    {
+      "id": "combo_p4_slots_b025",
+      "family": "combo",
+      "p": 4,
+      "mix": 0.25,
+      "exposure_mode": "slots",
+      "beta": 0.25,
+      "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+    },
+    {
+      "id": "combo_p4_slots_b05",
+      "family": "combo",
+      "p": 4,
+      "mix": 0.25,
+      "exposure_mode": "slots",
+      "beta": 0.5,
+      "semantic_key": "{\"beta\":0.5,\"exposure_mode\":\"slots\",\"family\":\"combo\",\"mix\":0.25,\"p\":4}"
+    },
+    {
+      "id": "probability_k10_m15",
+      "family": "probability",
+      "kappa": 10,
+      "mix": 0.15,
+      "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.15}"
+    },
+    {
+      "id": "probability_k10_m30",
+      "family": "probability",
+      "kappa": 10,
+      "mix": 0.3,
+      "semantic_key": "{\"family\":\"probability\",\"kappa\":10,\"mix\":0.3}"
+    },
+    {
+      "id": "probability_k50_m15",
+      "family": "probability",
+      "kappa": 50,
+      "mix": 0.15,
+      "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.15}"
+    },
+    {
+      "id": "probability_k50_m30",
+      "family": "probability",
+      "kappa": 50,
+      "mix": 0.3,
+      "semantic_key": "{\"family\":\"probability\",\"kappa\":50,\"mix\":0.3}"
+    }
+  ],
+  "selection": {
+    "primary": "Maximum equal-fold mean MAP@5; eligible candidates ranked by mean DESC then config_id ASC.",
+    "eligibility": "NEW candidate mean > V2 mean AND mean > V3 mean, strictly positive V2 delta in >=2 folds, min fold V2 delta >= -.002.",
+    "phase_b_trigger": "If Phase A has ZERO eligible new candidates, perform one supervised reranker phase with <=4 predefined configurations; do not stop at a negative Phase A. Phase B code/features/origins/params must be separately frozen before its scores.",
+    "phase_b_skip": "If Phase A has an eligible candidate, select the highest-mean eligible candidate and skip Phase B.",
+    "no_early_diagnostic": "Only after all required phases and final rolling selection, evaluate V2, V3 and ONE selected new candidate on stress and old_window; no retuning or new models after these diagnostics.",
+    "no_eligible_after_b": "If both phases lack eligible candidates, pick highest-mean new candidate for error/diagnostic reporting only and create no best CSV.",
+    "diagnostic_recommendation": "Recommend separate submission only if rolling eligible AND both diagnostic deltas vs V2 >= -.002 AND both deltas vs V3 >= -.002. Refitting rolling-eligible candidate is allowed; diagnostic risk must remain explicit.",
+    "same_users": "1260 exact-string template users, all users included, empty truth AP0, repeats allowed, no truth injection."
+  },
+  "selected_config": {
+    "id": "combo_p2_raw_b025",
+    "family": "combo",
+    "p": 2,
+    "mix": 0.25,
+    "exposure_mode": "raw",
+    "beta": 0.25,
+    "semantic_key": "{\"beta\":0.25,\"exposure_mode\":\"raw\",\"family\":\"combo\",\"mix\":0.25,\"p\":2}"
+  },
+  "expected_submission_sha256": "0dc3c8601b01ba093c302feedd257cf11bcdad8106ac9fad53ad6b58b51a03ab",
+  "original_protocol_sha256": "319c3558c917b2f8d882b772870d5cbd30b0f3424a39a06ce668c9044903d167",
+  "formulas": {
+    "base": "HL28, power.5, tau30, V2 direct implementation; V3 direct frozen cf_idf_l015.",
+    "partial_source": "Union matched fragments per user-airing, clip separately to [2020-03-09,cutoff), coverage=watched/full airing duration. Qualified coverage>=.8 unchanged; weak ONLY .05<=coverage<.8 AND watched>=60s.",
+    "partial_weight": "weak_ui=sum_e coverage_e**p * 2**(-(cutoff-last_time_e)/(28*86400)), p2/4; L1 normalize per user, NO extra square root.",
+    "partial_score": "a_ui=sqrt(r_ui)/sum sqrt(r); h_ui=weak_ui/sumweak; profile=(1-mix)*a+mix*h; s=(n*profile+30*g)/(n+30), n=V2 original available qualified mass. If weak absent, unchanged V2. n0 exact original popularity fallback.",
+    "opportunity": "An airing can qualify in [L,R) iff overlap>=.8 full-duration. Raw mode counts distinct channel,start,end,item; slots mode collapses identical item,start,end across channels. Labels never collapsed.",
+    "exposure": "D=.5*(E_last28+E_long*28/train_days); R=(F*28/target_days+1)/(D+1); score=V2score*clip(R,.25,4)**beta. future timetable allowed, future viewing forbidden.",
+    "combo": "partial_score multiplied by same exposure correction; fixed partial mix.25.",
+    "probability": "Only complete training airings end<=cutoff and .8 train eligibility. Weight both exposure D_i and qualified numerator Y_ui by 2**(-(cutoff-airing_end)/(28*86400)); mu_i=sum_uY_ui/(Utrain*D_i); p_ui=(Y_ui+kappa*mu_i)/(D_i+kappa); c_ui=p_ui*Fraw_i. Utrain=all distinct qualified train users before candidate filtering. L1 normalize c, blend with V2 distribution; unsupported uses V2. Validate finite 0<=p<=1 and Y<=D.",
+    "ranking": "score DESC numeric item ID ASC; same candidate pools and five unique nonzero IDs; zero qualified own available mass uses unchanged fallback in all Phase A variants."
+  },
+  "schedule_policy": {
+    "future_timetable_allowed": true,
+    "future_viewing_forbidden": true,
+    "future_metadata_not_used_by_phase_a": true,
+    "max_schedule_scope": "Only rows overlapping [train_start,target_end); full end of a crossing airing retained for denominator, no future period aggregate beyond target_end.",
+    "duplicate_conflict": "Same prepare labelled schedule cleaning; training air_ids stable; future exact channel/start/end/item duplicates collapsed, conflicting labelled airings excluded from exposure while original availability pool unchanged.",
+    "final": "Original31-42 schedule plus qualified carryover from training schedule; no reconstructed future logs."
+  }
+}
