@@ -1,6 +1,8 @@
 # SWEET.TV: воспроизводимый рекомендатель телепрограмм
 
-Открытый репозиторий: [https://github.com/ulianakazak/sweettv-recommender-exam](https://github.com/ulianakazak/sweettv-recommender-exam). Репозиторий создан; загрузка файлов выполняется, проверка удалённого коммита и совпадения SHA-256 ещё ожидается. Эта локальная версия не утверждает завершённую верификацию публикации.
+Открытый репозиторий: [https://github.com/ulianakazak/sweettv-recommender-exam](https://github.com/ulianakazak/sweettv-recommender-exam). Публикация проверена по снимку [5f7eceaaf7a813258487c5c3d2afffca9bfee7bf](https://github.com/ulianakazak/sweettv-recommender-exam/tree/5f7eceaaf7a813258487c5c3d2afffca9bfee7bf): все 42 файла скачаны с GitHub и побайтно совпали с локальной ревизией; проверка выполнена 24.10.2026 в 23:08:55 МСК.
+
+Указанный коммит — проверенный снимок **до текущей правки только README.md и configs/reproducibility.json**. Он не обозначает коммит, содержащий эту правку метаданных. Остальные 40 файлов, включая исходники моделей, тесты, оценки и итоговый CSV, сохранены без изменений.
 
 Итоговый `artifacts/best_local_v4_submission.csv` содержит 1260 пользователей, по пять уникальных ненулевых передач. SHA-256: `0dc3c8601b01ba093c302feedd257cf11bcdad8106ac9fad53ad6b58b51a03ab`.
 Сохранённая проверенная запись оркестратора подтверждает private **0.41586**, public **0.42282**, статус Kaggle `Complete (after deadline)`. Это отдельное внешнее подтверждение после локального выбора; оно не использовалось для настройки. Новых внешних действий этот репозиторий не делает.
