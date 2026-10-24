@@ -1,0 +1,26 @@
+{
+  "dataset11-30.csv": {
+    "sha256": "8c9e5f058157041e5c33f13e64dc1625a5177cc6d5e434ba18cd8a69afafb53b",
+    "bytes": 396216555
+  },
+  "export_arh_11-20-final.csv": {
+    "sha256": "7888aa00c20db3db23f95000c721eccf2878e5f58bf5383bb25b99f078b1033c",
+    "bytes": 153322643
+  },
+  "export_arh_21-30-final.csv": {
+    "sha256": "bdc9fa9850239aaed608bece9cdb200011e690300470fe85b980457d8c0cb2d4",
+    "bytes": 154366907
+  },
+  "export_arh_31-42-final.csv": {
+    "sha256": "5cc01f4619bd94886d83744f00bbc15cc5fa23384d297244a7dc2207450c4088",
+    "bytes": 185952991
+  },
+  "manifest.json": {
+    "sha256": "479e585c7ec074f6f27e8460dd3174a9b67dedc274c782064328d41b128ddd1c",
+    "bytes": 3804
+  },
+  "submission.csv": {
+    "sha256": "d8c209dce3c7c9d815d8e2a6226e1be63052ee7afa7e8ba8b75dc2f703967a02",
+    "bytes": 38348
+  }
+}
