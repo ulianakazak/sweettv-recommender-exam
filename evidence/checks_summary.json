@@ -1,0 +1,15 @@
+{
+  "kind": "Aggregate excerpt of executed checks; not a native raw log",
+  "metric_audit_passed": true,
+  "saved_user_aps_recomputed_as_fractions": 105840,
+  "phase_a_independent_rankings_checked": 1716,
+  "final_independent_rankings_checked": 1392,
+  "protected_legacy_files_verified_in_original_environment": 897,
+  "original_csv_sha256": "0dc3c8601b01ba093c302feedd257cf11bcdad8106ac9fad53ad6b58b51a03ab",
+  "no_new_fitting_or_rescoring_for_staging": true,
+  "source_sha256": {
+    "independent_result_checks.json": "09b41474fe35d2b5599c76ae6f2b91c4eac68e0e6607c0eef4c87c82dd7d3aa4",
+    "ranking_validation_independent_a.json": "85239657cccd518881e7804aa049a59adb862bf7e035023ba6ec856e741a5795",
+    "ranking_validation_independent_final.json": "cd6176a014a1c47ef51929c91876c8eb1d47a0af143bf914c1e4bd0c89acb0f5"
+  }
+}
